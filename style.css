@@ -1,0 +1,37 @@
+.content {
+    margin:auto;
+}
+
+h1 {
+    color:black;
+}
+
+body {
+    background-color:yellow;
+}
+
+button {
+    background-color: purple;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 24px;
+}
+
+.container {
+    color:aquamarine;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.flex-container {
+    display:flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
